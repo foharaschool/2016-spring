@@ -1,0 +1,36 @@
+TV
+Instance Variables:
+Channel
+On/Off State
+Contrast level
+Brightness level
+Volume
+
+Methods:
+On/Off Switcher
+Channel controller
+Contrast controller
+Brightness controller
+Volume controller
+
+Radio:
+Instance Variables:
+On/off state
+Volume level
+Frequency
+Modulation state
+
+Methods:
+On/Off switcher
+Volume controller
+Frequency controller
+Modulation state switcher
+
+Media Player
+Instance Variables:
+On/Off state
+Volume
+
+Methods:
+On/off switcher
+volume controller
