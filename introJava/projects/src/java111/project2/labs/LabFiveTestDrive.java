@@ -12,8 +12,12 @@
      */
      public static void main(String[] args) {
          LabFive findPerson = new LabFive();
-         findPerson.setup();
          
-         findPerson.people[0].displayEverything();
+         // Call methods to setup and loop array
+         findPerson.setup();
+         findPerson.runWhile();
+         findPerson.runFor();
+         
+         
      }
  }
