@@ -1,0 +1,50 @@
+**Prepcode for Lab 3-3**
+
+Application 2
+
+PREPCODE for the Random Class:
+
+Declare a variable:
+    int randomNum
+
+Declare methods:
+Method: int findRandomNum()
+    randomNum = generate random number
+End Method
+
+
+PREPCODE for the GuessNumber Class
+
+Declare a variable:
+    int userNum
+    bool success = false;
+    String fail;
+    
+Declare methods:
+Method: promptUser()
+    userNum = Prompt return
+End Method
+
+Method: void randomCompare()
+    if(userNum < Random.randomNum)
+        fail = too low message output
+        
+    if(userNum > Random.randomNum)
+        fail = too high message output
+    
+    if(userNum = Random.randomNum)
+        success = true
+End Method
+
+Method: successOutput()
+    Return Success Message
+End Method
+
+
+Method: run()
+    While(!success) {
+        promptUser()
+        randomCompare()
+    }
+        successOutput()
+End Method

@@ -1,0 +1,31 @@
+**High Level Design for Lab 3-1**
+
+1) Application 1 starts
+2) Variables are created to hold the user inputs
+3) Entry of user inputs begin
+    prompt user for 2 numbers
+    store numbers
+4) The program outputs specified calculations
+5) Step 3-4 repeat until user enters a 0
+6) The application ends
+
+1) Application 2 starts
+2) Variable created to store random number
+    Random number generated
+3) Entry of user inputs begin
+    create variable to store input number
+    prompt user for number between 1-100 inclusive
+4) Program compares input to random number
+5) Program outputs high, low, or success
+6) Step 3-5 repeat until success
+7) The application ends
+
+1) Application 3 starts
+2) Color list and quote file stored
+    color list associated to quotes
+3) Entry of user inputs begin
+    prompt and store user for color name
+4) Test input against color list
+    Success: output quote
+    failure: repeat steps 3-4
+5) Application ends
