@@ -2,49 +2,63 @@
 
 Application 2
 
-PREPCODE for the Random Class:
+PREPCODE for the RandomNum Class:
 
 Declare a variable:
-    int randomNum
+    double randomNum
+    int randomInt
 
 Declare methods:
-Method: int findRandomNum()
+Method: double findRandomNum()
     randomNum = generate random number
 End Method
+
+Cast double random into an int
 
 
 PREPCODE for the GuessNumber Class
 
 Declare a variable:
     int userNum
-    bool success = false;
-    String fail;
     
 Declare methods:
 Method: promptUser()
     userNum = Prompt return
 End Method
 
+
+PREPCODE for the CompareNumber Class
+
+Declare variables:
+boolean success = false;
+String output = '';
+
+Instantiate GuessNumber object
+Instantiate RandomNum object
+
 Method: void randomCompare()
-    if(userNum < Random.randomNum)
-        fail = too low message output
+    if(userNum < Random.randomInt)
+        output = too low message output
         
-    if(userNum > Random.randomNum)
-        fail = too high message output
+        
+    if(userNum > Random.randomInt)
+        output = too high message output
     
-    if(userNum = Random.randomNum)
+    if(userNum = Random.randomInt)
         success = true
+        output = success message
 End Method
 
-Method: successOutput()
-    Return Success Message
+Method: printOutput()
+    Print output Message
 End Method
-
 
 Method: run()
     While(!success) {
         promptUser()
         randomCompare()
+        printOutput()
     }
-        successOutput()
-End Method
+ 
+END METHOD
+        

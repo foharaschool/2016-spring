@@ -6,7 +6,7 @@ The Calcualte class that will store the input from the user.  It will perform ca
 
 Application 2
 
-The Random class stores a numeric values.  It will generate a random number
+The RandomNum class stores a numeric values.  It will generate a random number
 The GuessNumber class stores a user input number.  It will compare the input to the random number and generate the success/fail message
 
 
