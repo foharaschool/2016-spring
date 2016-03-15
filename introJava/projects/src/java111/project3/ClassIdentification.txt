@@ -1,0 +1,47 @@
+Classes
+=========
+
+Input Helper
+===================
+*No data stored
+-------------------
+*Gets user input
+___________________
+
+
+Client Class
+===================
+*Holds information about individual clients
+-------------------
+*Calculates client specific data (non-aggregate)
+___________________
+
+
+ClientList Class
+===================
+*Holds instances of Client class objects
+*Holds instances of ClientReport objects
+*Holds instances of SummaryReport objects
+-------------------
+*Gets information about each client from user
+*Calls format and calculations from ClientReport Class for each client
+*Calls format and calculations from SummaryReport Class for all clients
+*Runs client and summary reports
+___________________
+
+
+ClientReport Class
+===================
+*Holds calculation variables and constants
+-------------------
+*Performs aggregate calculations on individual client
+___________________
+
+
+SummaryReport Class
+===================
+*Holds calculation variables and constants
+-------------------
+*Performs calculations
+___________________
+
