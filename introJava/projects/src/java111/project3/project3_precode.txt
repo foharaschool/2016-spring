@@ -1,0 +1,103 @@
+**Prepcode for Project 3**
+
+PREPCODE for the Client Class:
+
+Variable Delclarations:
+    String clientName
+    double lawnLength
+    double lawnWidth
+    int numPayments
+    double lawnArea
+
+Methods:
+    // New client Constructor
+        public Client(String name, String lawnLengthString, String lawnWidthString, String numPaymentsString) {
+            this.name = name;
+            this.lawnLengthString = Double.parseDouble(lawnLength);
+            this.lawnWidthString = Double.parseDouble(lawnWidth);
+            this.numPaymentsString = parseInt(numPayments);
+            lawnArea = lawnLength * lawnWidth;
+        };
+    
+
+
+PREPCODE for the ClientList Class:
+
+Array Delclarations:
+    List<Client> clientele = new ArrayList<Client>();
+
+Methods:
+    // Create Input questionnaire
+    private void clientInput() {
+        // Instantiate InputHelper
+        InputHelper clientData = new InputHelper();
+        
+
+        }
+          
+        // Ask questions
+        name = clientData.getUserInput("Client Name:");
+        lengthLawn = clientData.getUserInput("Length of lawn:");
+        widthLawn = clientData.getUserInput("Width of lawn:");
+        payNum = clientData.getUserInput("Number of Payments:");
+        nextClient = clientData.getUserInput("Add another client? (y/n):");
+    }
+    
+    // Use input to Generate client list
+    public void buildClients(clientInput()) {
+        
+        // Declare nextClient sentinel
+        private String nextClient = "y";
+        
+        // Loop through clientInput until user inputs "n"
+        while(nextClient.equals "y") {
+            // Client vars - reset each loop
+            String name;
+            String lengthLawn;
+            String widthLawn;
+            String payNum;
+            
+            // Run inputs
+            clientInput();
+            
+            // Store in new Client object
+            clientele.add(new Client(name, lengthLawn, widthLawn, payNum)));
+        }
+    }
+    
+    // Report methods
+    public void reportRun() {
+        double clientTotalRevenue;
+    
+        public void clientReport() {
+            // calculation variables
+            int mowingSeason = 20;
+            double eachPayment;
+            double clientPaymentTotal;
+            
+            
+            for(Client client : clientele) {
+                calculate total of all payments based on size charge and num payments surcharge
+                
+                calculate each payment amount based on total and num payments and add to clientTotalRevenue
+                
+                output formatted data for each client
+                
+                
+            }
+        }
+        
+        public void summaryReport() {
+            // Summary calculation variables
+            
+            for(Client client : clientele) {
+                
+                calculate total number of clients
+                
+                calculate Total sq footage
+                
+                calcualte Total Revenue
+            }
+        }
+    }
+    

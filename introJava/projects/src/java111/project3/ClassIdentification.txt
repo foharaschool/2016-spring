@@ -42,6 +42,6 @@ SummaryReport Class
 ===================
 *Holds calculation variables and constants
 -------------------
-*Performs calculations
+*Performs summary calculations
 ___________________
 
