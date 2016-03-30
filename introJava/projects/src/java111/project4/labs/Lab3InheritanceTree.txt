@@ -1,0 +1,23 @@
+Fruit*******
+
+Apple extends Fruit
+
+Jonagold extends Apple
+
+Golden Delicious extends Apple
+
+Citrus extends Fruit
+
+Orange extends Fruit
+
+Grapefruit extends Citrus
+
+Ruby Red Grapefruit extends Grapefruit
+
+Plum extends Fruit
+
+Prune extends Plum
+
+Cranberry extends Fruit
+
+Kumquat extends Citrus
