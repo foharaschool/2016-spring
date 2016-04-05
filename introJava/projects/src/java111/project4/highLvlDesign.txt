@@ -1,0 +1,17 @@
+*********High level design for Project 4*************
+Fred O'Hara
+IntroJava Tue 5:30
+
+*****Part 1*****
+1. The student info application starts
+    Create students of a superclass and sublclass
+2. The application creates objects of superclass and subclass
+3. The information from the created objects is output to the console
+
+*****Part 2*****
+1. The application starts
+    A list is created to hold Students
+2. User input of Student objects begins
+    An object of the appropriate type is instantiated and stored in the arrayList
+    Entry continues until user opts out of further entry
+3. Program outputs data about each student

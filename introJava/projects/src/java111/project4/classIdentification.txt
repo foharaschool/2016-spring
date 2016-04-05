@@ -1,0 +1,19 @@
+*********Class Identification for Project 4*************
+Fred O'Hara
+IntroJava Tue 5:30
+
+*****Part 1*****
+Student
+===================
+student id
+name
+school
+extracurrricular activities
+homeroom teacher
+-------------------
+toString() all variables in string
+
+*******************
+
+Kindergartener - extends Student
+===================
