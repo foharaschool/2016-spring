@@ -1,37 +1,48 @@
-*********Class Identification for Project 4*************
+*********Prepcode for Project 4*************
 Fred O'Hara
 IntroJava Tue 5:30
 
 *****Part 1*****
 Student
 ===================
-student id
-name
-school
-extracurrricular activities
-homeroom teacher
+Vars:
+int studentId
+String name
+String school
+String extracurricular activities
+String homeroom teacher
 -------------------
-toString() all variables in string
+Methods:
+void toString()
+    Print out all data
 
 *******************
 
 Kindergartener - extends Student
 ===================
-showAndTell
+Vars:
+String showAndTellItem
 -------------------
-toString() ovveride to include status and showAndTell
+Methods:
+void toString()
+    Add in specific kindergarten identifier and instance variable to print
 
 *****Part 2*****
 Student - abstracted form of previous
 ===================
-Inst vars same as above
+Vars:
+int studentId
+String name
+string school
+String extracurricular activities
 -------------------
-progressReport() utilizes interface and prints out testScores - abstract
+Methods:
+progressReport() implements interface signature and prints out testScores - abstract
 *******************
 
 HighSchooler - extends Student
 ===================
-dissectedFrog
+boolean dissectedFrog
 
 *******************
 
