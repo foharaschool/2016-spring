@@ -16,6 +16,7 @@ public class PizzaChoice {
      
     /**
      *  The purpose of this method is to set the size to passed value
+     *@param    x   represents user entered size choice
     */ 
     public PizzaChoice(int x) {
         i = x;
@@ -23,6 +24,7 @@ public class PizzaChoice {
     
     /**
      *  The purpose of this method is to get the size (X)
+     *@return   returns stored size to calling methods
     */  
     public char getSize() {
         return sizes[i];
@@ -30,6 +32,7 @@ public class PizzaChoice {
      
      /**
      *  The purpose of this method is to get the price
+     *@return   returns stored price to calling methods
     */ 
     public double getPrice() {
         return prices[i];
@@ -37,6 +40,7 @@ public class PizzaChoice {
     
     /**
      *  The purpose of this method is to return a custom selection message
+     *@return   Returns formatted result output to user
     */ 
     public String toString() {
         StringBuffer  sb  =

@@ -11,6 +11,10 @@ public class SelectPizza {
      *  The purpose of the processSelection method is to query the user for a size and print out the results
     */ 
     public void processSelection()
+        
+        /**
+         *@throws java.lang.Exception with invalid user input
+         */
         throws Exception {
         char         selection;
         String       choice      = "";

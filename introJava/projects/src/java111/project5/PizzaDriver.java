@@ -14,6 +14,10 @@ public class PizzaDriver {
      *@param  args  The command line arguments
      */
     public static void main(String[] args)
+        
+        /**
+         *@throws java.lang.Exception with invalid user input
+         */
         throws Exception {
  
         SelectPizza  thisPizza  = new SelectPizza();
